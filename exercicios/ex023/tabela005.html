@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .nome {
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="profissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Joao</td>
+            <td>M</td>
+            <td>12</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Felipe</td>
+            <td>M</td>
+            <td>98</td>
+            <td>Aposentado</td>
+        </tr>
+        <tr>
+            <td>Victor</td>
+            <td>M</td>
+            <td>34</td>
+            <td>Pedreiro</td>
+        </tr>
+    </table>
+</body>
+</html>
