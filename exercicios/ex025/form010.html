@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Formulario</title>
+</head>
+<body>
+    <h1>Exemplo Formulario</h1>
+    <form action="" method="post">
+        <p>
+            <label for="iano">Ano Nascimento: </label>
+            <input type="number" name="iano" id="iano" min="1950" max="2023" value="2000" oninput="ival.innerHTML = 2023 - Number(iano.value)">
+            <output id="ival">23</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
